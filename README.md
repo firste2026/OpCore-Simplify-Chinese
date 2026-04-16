@@ -161,11 +161,6 @@
 
 ## 📞 **联系方式**
 
-**Hoang Hong Quan**
-> Facebook [@macforce2601](https://facebook.com/macforce2601) &nbsp;&middot;&nbsp;
-> Telegram [@lzhoang2601](https://t.me/lzhoang2601) &nbsp;&middot;&nbsp;
-> 邮箱：lzhoang2601@gmail.com
+> QQ 3314967083 &nbsp;&middot;&nbsp;
+> 邮箱：3314967083@qq.com
 
-## 🌟 **Star 历史**
-
-[![Star History Chart](https://api.star-history.com/svg?repos=lzhoang2801/OpCore-Simplify&type=Date)](https://star-history.com/#lzhoang2801/OpCore-Simplify&Date)
