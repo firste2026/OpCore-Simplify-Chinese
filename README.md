@@ -91,49 +91,50 @@
 ## 🚀 **使用方法**
 
 1. **下载 OpCore Simplify**：
-   - 点击 **Code** → **Download ZIP**，或通过此 [链接](https://github.com/lzhoang2801/OpCore-Simplify/archive/refs/heads/main.zip) 直接下载。  
+   - 点击 **Code** → **Download ZIP**，或通过此 [链接](https://github.com/firste2026/OpCore-Simplify-Chinese/archive/refs/heads/main.zip) 直接下载。  
    - 将下载的 ZIP 文件解压到所需位置。
 
-   ![下载 OpCore Simplify](https://i.imgur.com/mcE7OSX.png)
+   ![下载 OpCore Simplify](images/0.png)
 
 2. **运行 OpCore Simplify**：
    - 在 **Windows** 上，运行 `OpCore-Simplify.bat`。
    - 在 **macOS** 上，运行 `OpCore-Simplify.command`。
    - 在 **Linux** 上，使用现有的 Python 解释器运行 `OpCore-Simplify.py`。
 
-   ![OpCore Simplify 菜单](https://i.imgur.com/vTr1V9D.png)
+   ![OpCore Simplify 菜单](images/1.png)
 
 3. **选择硬件报告**：
    - 在 Windows 上，将有一个选项 `E. Export hardware report`（导出硬件报告）。建议在构建时使用此选项以获得最佳的硬件配置和 BIOS 效果。
    - 或者，使用 [**Hardware Sniffer**](https://github.com/lzhoang2801/Hardware-Sniffer) 创建 `Report.json` 和 ACPI 转储以进行手动配置。
 
-   ![选择硬件报告](https://i.imgur.com/MbRmIGJ.png)
+   ![选择硬件报告](images/2.png)
 
-   ![加载 ACPI 表](https://i.imgur.com/SbL6N6v.png)
+   ![加载 ACPI 表](images/3.png)
 
-   ![兼容性检查器](https://i.imgur.com/kuDGMmp.png)
+   ![兼容性检查器](images/4.png)
 
 4. **选择 macOS 版本和自定义 OpenCore EFI**：
    - 默认情况下，将为您的硬件选择最新的兼容 macOS 版本。
    - OpCore Simplify 将自动应用基本的 ACPI 补丁和 kext。 
    - 您可以根据需要手动审查和自定义这些设置。
 
-   ![OpCore Simplify 菜单](https://i.imgur.com/TSk9ejy.png)
+   ![OpCore Simplify 菜单](images/5.png)
 
 5. **构建 OpenCore EFI**：
    - 自定义所有选项后，选择 **Build OpenCore EFI** 以生成您的 EFI。
    - 工具将自动下载必要的引导加载程序和 kext，这可能需要几分钟时间。
 
-   ![WiFi 配置文件提取器](https://i.imgur.com/71TkJkD.png)
+   ![WiFi 配置文件提取器](images/6.png)
 
-   ![选择编解码器布局 ID](https://i.imgur.com/Mcm20EQ.png)
+   ![选择编解码器布局 ID](images/7.png)
 
-   ![构建 OpenCore EFI](https://i.imgur.com/deyj5de.png)
+   ![构建 OpenCore EFI](images/8.png)
 
 6. **USB 映射**：
    - 构建 EFI 后，按照步骤进行 USB 端口映射。
 
-   ![结果](https://i.imgur.com/MIPigPF.png)
+   ![结果](images/9.png)   ![结果](images/10.png)
+
 
 7. **创建 USB 安装器并安装 macOS**： 
    - 在 Windows 上使用 [**UnPlugged**](https://github.com/corpnewt/UnPlugged) 创建 USB macOS 安装器，或参考 [本指南](https://dortania.github.io/OpenCore-Install-Guide/installer-guide/mac-install.html)（适用于 macOS）。
@@ -163,4 +164,3 @@
 
 > QQ 3314967083 &nbsp;&middot;&nbsp;
 > 邮箱：3314967083@qq.com
-
