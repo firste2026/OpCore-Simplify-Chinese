@@ -462,9 +462,10 @@ class OCPE:
                 self.u.request_input("按回车键返回主菜单...")
 
 if __name__ == '__main__':
-    update_flag = updater.Updater().run_update()
-    if update_flag:
-        os.execv(sys.executable, ['python3'] + sys.argv)
+    # 自动更新功能已禁用
+    # update_flag = updater.Updater().run_update()
+    # if update_flag:
+    #     os.execv(sys.executable, ['python3'] + sys.argv)
 
     o = OCPE()
     while True:
